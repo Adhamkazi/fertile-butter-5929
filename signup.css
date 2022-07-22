@@ -6,7 +6,7 @@ body {
     display: flex;
     margin: auto;
 }
-#c-logo>img {
+#c-logo> a >img {
     width: 65%;
     margin-left: 0px;
     margin-top: 8px;
@@ -173,6 +173,7 @@ input[type="text"]{
   .loginBtn-facebook:focus {
     background-color: #5B7BD5;
     background-image: linear-gradient(#5B7BD5, #4864B1);
+    
   }
   
   .loginBtn-google {

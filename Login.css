@@ -7,7 +7,7 @@ body {
     display: flex;
     margin: auto;
 }
-#c-logo>img {
+#c-logo> a >img {
     width: 65%;
     margin-left: 0px;
     margin-top: 8px;

@@ -2,11 +2,15 @@ body {
     background-color: rgb(252, 252, 252);
 }
 #navbar {
-    width: 70%;
+    width: 100%;
     display: flex;
     margin: auto;
+    position: fixed;
+    background-color: #FFF;
+    margin-top: -30px;
+    margin-left: 80px;
 }
-#c-logo>img {
+#c-logo>a>img {
     width: 65%;
     margin-left: 0px;
     margin-top: 8px;
@@ -284,7 +288,7 @@ form > h6{
 }
 #logo > img {
     width:17%;
-    margin-left: 200px;
+    margin-left: 155px;
     margin-top: 20px;
 }
 #logo > h2{
@@ -301,9 +305,7 @@ form > h6{
     align-items: center;
     margin-top: 10px;
     gap:40px;
-    background-color: rgb(232, 231, 231);
-
-    
+    background-color: rgb(232, 231, 231); 
 }
 #sc{
     margin-top:40px

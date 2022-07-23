@@ -25,3 +25,9 @@ let ImagesLinks=[
         }
         crauser.src=ImagesLinks[imgstate];
     })
+
+
+    let leftbtn=document.getElementById("leftbtn");
+    let rigthbtn=document.getElementById("rightbtn");
+    let imgs=document.querySelector("products");
+    

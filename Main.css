@@ -4,6 +4,7 @@
     position: fixed;
     background-color: #fff;
     margin: auto;
+    margin-top: -10px;
 
 }
 
@@ -22,7 +23,7 @@
     width: 60%;
     display: flex;
     align-items: flex-start;
-    margin: 10px -30px;
+    margin: 10px -20px;
     padding: 4px;
 }
 
@@ -34,7 +35,7 @@ input[type="text"]{
 
 .material-symbols-outlined {
     margin-top: 15px;
-    margin-left: -10px;
+    margin-left: -20px;
     cursor: pointer;
 }
 
@@ -126,7 +127,7 @@ input[type="text"]{
    list-style: none;
 
 }
-#navigation > ul > li{
+#navigation > ul >a {
     padding-left: 3rem;
     margin-top: 20px;
     font-size: 11px;
@@ -134,6 +135,19 @@ input[type="text"]{
     line-height: 40px;
     text-align: center;
     cursor:pointer;
+    text-decoration: none;
+    color: #000000;
+
+}
+#navigation > ul >li {
+    padding-left: 3rem;
+    margin-top: 20px;
+    font-size: 11px;
+    font-family: Roboto,sans-serif;
+    line-height: 40px;
+    text-align: center;
+    cursor:pointer;
+    
 }
 
 #category{
@@ -151,6 +165,7 @@ input[type="text"]{
 #imgs{
     width: 80%;
     margin: auto;
+    
 }
 
 
@@ -297,4 +312,106 @@ h5.background {
         margin:auto ;
     }
 
+    #futured{
+        display: flex;
+        width: 80%;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(1,auto);
+        margin: auto;
+        justify-content: space-between;
+       
+    }
+    #futured > div >img {
+        width: 30%;
+        margin-left: 30px;
+    }
+
+    #futured > #cap{
+        width: 30%;
+        margin-top: -30px;
+    }
+    #futured > #cap > p{
+       
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    #futured > div > h5{
+        color: #f98d29;
+        font-size: 13px;
+        font-family: Roboto,sans-serif;
+    }
+    #company-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        gap:40px;
+        background-color: rgb(254, 254, 254);
     
+        
+    }
+    #sc{
+        margin-top:40px
+    }
+    #policies{
+        margin-top: 40px;
+    }
+    ul > h2{
+        margin-top: -55px;
+        font-size: 17px;
+        border: 0px;
+    }
+    ul{
+        color:#f7941D;
+        list-style: none;
+        font-size: 15px;
+    }
+    ul li{
+        color: rgb(4, 4, 4);
+        text-decoration: none;
+        font-size: 13px;
+    }
+    
+    ul:nth-child(2){
+        margin-top: -20px;
+    }
+    ul:nth-child(4){
+        margin-top: 40px;
+    }
+    ul:nth-child(5){
+        margin-top: -60px;
+    }
+
+    #company-info > form {
+        margin-top: -100px;
+        margin-left: 20px;
+    }
+    #company-info > form > #Email{ 
+        border:none;
+        background-color: #fff;
+        border-radius: 3px;
+        font-size: 13px;
+    }
+    #company-info > form > #subs{
+        border-radius: 3px;
+        background-color: #f7941D;
+        font-size: 13px;
+        
+        color: #fff;
+        margin-left: -4px;
+    }
+
+    #more {
+        width: 100%;
+        margin: 40px 30px 0px 80px ;
+       
+    }
+    #more > h6{
+        font-size: 16px;
+        font-weight: 500;
+        color: #f98d29;
+    }
+    #more > p{
+        font-size: 12px;
+        line-height: 17px;
+    }
